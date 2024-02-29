@@ -1,0 +1,87 @@
+/* aula 1 - nosso css */
+h1, h2 {
+  color: red;
+  text-align: center;
+}
+
+/* aula 7 - grid */
+
+.container {
+  border: 5px dotted blue;
+  padding: 5px;
+}
+
+.row {
+  border: 5px solid purple;
+  height: 100px;
+  padding: 5px;
+  margin: 0;
+}
+
+.col {
+  border: 2px dashed red;
+  height: 100%;
+  margin: 0;
+}
+
+/* aula 8 - tamanho colunas */
+.col-4, .col-2, .col-11, .col-1 {
+  border: 2px dashed red;
+  height: 100%;
+  margin: 0;
+}
+#largura-limitada{
+  max-width: 500px;
+}
+
+/* aula 9 - align vert */
+
+#vertical {
+  height: 250px;
+  border-color: coral;
+}
+
+#vertical .row {
+  height: 100%;
+}
+
+.col-6 {
+  border: 2px dashed red;
+  height: 50px;
+  margin: 0;
+}
+
+/* aula 10 -alinhamento horizontal */
+
+#gutter .col-6 {
+  margin: 0;
+}
+
+.col-3 {
+  border: 2px dashed red;
+  height: 50px;
+  margin: 0;
+}
+
+/* aula de offset */
+#offset .row {
+  height: 100px;
+}
+
+.col-md-3 {
+  border: 2px dashed red;
+  height: 50px;
+}
+
+/* Gutter */
+#gutter .row {
+  height: 200px;
+}
+
+#gutter .col-6 {
+  margin: auto;
+}
+
+.row p {
+  border: 2px solid green;
+}
